@@ -1,0 +1,28 @@
+.box-med-kompetencer {
+  display: grid;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+.box-med-kompetencer p {
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+
+.section-som-holder-alle-kompetencer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px 100px 100px;
+  justify-content: center;
+}
+
+.icons-kompetencer {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+}
