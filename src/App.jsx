@@ -1,7 +1,7 @@
 import NavBar from "./components/navbar";
 import "./style/index.scss";
 import Mig from "./components/mig";
-import Projekter from "./components/projekter";
+import Projekter from "./components/Projekter";
 import Kompetencer from "./components/kompetencer.jsx";
 import Kontakt from "./components/kontakt.jsx";
 import Footer from "./components/footer.jsx";
