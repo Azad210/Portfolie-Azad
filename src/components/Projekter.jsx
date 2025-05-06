@@ -3,6 +3,15 @@ import dinmaegler from "../img/dinmaegler.png";
 import hifi from "../img/hifi.png";
 import movie from "../img/movie.png";
 import news from "../img/newsify.png";
+import { FaSass } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa6";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { DiNodejsSmall } from "react-icons/di";
+import { SiWebpack } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { FaReact } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
 
 export default function Projekter() {
   return (
@@ -10,7 +19,14 @@ export default function Projekter() {
       <h2 id="projekter">Mine seneste projekter</h2>
 
       <div className="section-med-projekter">
+        
         <div className="project-card">
+        <div className="icons-holder">
+        <FaHtml5 className="icons-kompetencer" />
+        <FaReact className="icons-kompetencer" />
+        <IoLogoJavascript className="icons-kompetencer" />
+        <FaSass className="icons-kompetencer" />
+        </div>
           <h3>Din Mægler</h3>
           <img className="billeder-af-projekter" src={dinmaegler} alt="" />
           <p></p>
@@ -24,6 +40,12 @@ export default function Projekter() {
         </div>
 
         <div className="project-card">
+        <div className="icons-holder">
+        <FaHtml5 className="icons-kompetencer" />
+        <FaReact className="icons-kompetencer" />
+        <IoLogoJavascript className="icons-kompetencer" />
+        <FaSass className="icons-kompetencer" />
+        </div>
           <h3>HiFi</h3>
           <img className="billeder-af-projekter" src={hifi} alt="" />
           <p></p>
@@ -37,6 +59,13 @@ export default function Projekter() {
         </div>
 
         <div className="project-card">
+        <div className="icons-holder">
+        <FaHtml5 className="icons-kompetencer" />
+        <FaReact className="icons-kompetencer" />
+        <IoLogoJavascript className="icons-kompetencer" />
+        <IoLogoCss3 className="icons-kompetencer" />
+        </div>
+        
           <h3>MyMovies</h3>
           <img className="billeder-af-projekter" src={movie} alt="" />
           <p></p>
@@ -50,6 +79,11 @@ export default function Projekter() {
         </div>
 
         <div className="project-card">
+        <div className="icons-holder">
+        <FaHtml5 className="icons-kompetencer" />
+        <IoLogoJavascript className="icons-kompetencer" />
+        <IoLogoCss3 className="icons-kompetencer" />
+        </div>
           <h3>Newsify</h3>
           <img className="billeder-af-projekter" src={news} alt="" />
           <p></p>
