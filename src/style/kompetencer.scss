@@ -13,6 +13,12 @@
   color: rgb(0, 0, 0);
 }
 
+.box-med-kompetencer:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  filter: invert(1);
+}
+
 .section-som-holder-alle-kompetencer {
   display: grid;
   grid-template-columns: 50% 50%;
