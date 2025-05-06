@@ -9,6 +9,13 @@
   display: grid;
   margin-bottom: 20px;
   max-width: 500px;
+
+}
+
+.project-card:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .section-med-projekter {

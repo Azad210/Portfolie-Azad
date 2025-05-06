@@ -13,8 +13,9 @@ export default function NavBar() {
     <>
       <header>
         <nav>
+          <a href="/">
           <img className="nav-logo" src={logo} alt="Logo" />
-
+          </a>
           <div className="burger-menu" onClick={() => setIsOpen(!isOpen)}>
             <span></span>
             <span></span>
