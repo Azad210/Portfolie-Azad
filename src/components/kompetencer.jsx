@@ -8,6 +8,7 @@ import { SiWebpack } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
 
 export default function Kompetencer() {
   return (
@@ -59,6 +60,12 @@ export default function Kompetencer() {
         <FaWordpress className="icons-kompetencer" />
           <p>Wordpress</p>
         </div>
+
+        <div className="box-med-kompetencer">
+        <FaPhp className="icons-kompetencer" />
+          <p>PHP</p>
+        </div>
+
 
 
 
